@@ -1,0 +1,10 @@
+node_modules/
+plans/
+run-logs/
+assets/
+examples/
+tmp/
+output/
+.env
+.DS_Store
+*.log

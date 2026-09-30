@@ -1,0 +1,20 @@
+{
+  "name": "kuaishou-draft-uploader",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Image-assisted, review-first Kuaishou product draft uploader",
+  "scripts": {
+    "browser": "node src/cli.cjs browser",
+    "doctor": "node src/cli.cjs doctor",
+    "plan": "node src/cli.cjs prepare",
+    "apply": "node src/cli.cjs apply",
+    "check": "node --test tests/rules.test.cjs"
+  },
+  "dependencies": {
+    "playwright-core": "1.63.0",
+    "sharp": "^0.35.4"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
